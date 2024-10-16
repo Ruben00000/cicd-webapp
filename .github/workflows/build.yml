@@ -1,4 +1,5 @@
 name: Build and test
+working-directory: ./webapp
 on:
   push:
     branches:
