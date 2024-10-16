@@ -16,4 +16,5 @@ jobs:
         working-directory: ./webapp
         run: yarn install
       - name: Yarn Lint
+        working-directory: ./webapp
         run: yarn lint
